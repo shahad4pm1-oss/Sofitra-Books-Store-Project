@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Sofitra Books</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav>
+    <!-- Static link for GitHub demo, won't work perfectly without PHP -->
+    <!-- <a href="home.php" class="button">← Back to Home</a> -->
+  </nav>
+
+  <header>
+    <h1>Sofitra Books store</h1>
+    <img src="photo/so.png" alt="Sofitra Books Logo" width="500" height="200">
+    <p>Welcome to our online bookstore!</p>
+  </header>
+
+  <section class="page1">
+    <h2>Login to Your Account</h2>
+
+    <div
+      style="background-color: #fff3cd; color: #856404; padding: 10px; margin-bottom: 15px; border: 1px solid #ffeeba; text-align: center;">
+      <strong>Note:</strong> This project uses PHP. GitHub Pages only supports static HTML.
+      <br>Login functionality will not work here. Please run on a local PHP server (XAMPP).
+    </div>
+
+    <form action="login.php" method="POST">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <button type="submit" style="width: 100%;">Login</button>
+    </form>
+    <p style="text-align: center; margin-top: 15px;">Don't have an account? <a href="signup.php">Create one</a></p>
+  </section>
+
+  <main>
+    <h2>Our Services</h2>
+    <ul>
+      <li>A wide selection of books across various categories</li>
+      <li>Easy returns within 7 days of purchase</li>
+      <li> online payment (e.g., Apple Pay)</li>
+      <li>Organized categories to help you find the perfect book</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sofitra Books. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
