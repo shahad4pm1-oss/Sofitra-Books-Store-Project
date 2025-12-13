@@ -1,9 +1,9 @@
 # Sofitra-Books-Store-Project
 
-Shahad AlShammary 223037205
-Salma Al Thani 222436119
-Khadija Badahia 222455029
-Alzahra Alnasser 223047207
+Shahad AlShammary-223037205,
+Salma Al Thani 222436119,
+Khadija Badahia-222455029,
+Alzahra Alnasser-223047207
 
 Project Title: Sofitra Book Store – Online Library & Book Management
 
