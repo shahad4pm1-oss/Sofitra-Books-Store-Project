@@ -5,7 +5,7 @@ Salma Al Thani 222436119,
 Khadija Badahia-222455029,
 Alzahra Alnasser-223047207
 
-Project Title: Sofitra Book Store – Online Library & Book Management
+Project Title: Sofitra Book Store – Online Library 
 
 SystemShort Description:
 
