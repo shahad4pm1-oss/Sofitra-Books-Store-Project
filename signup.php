@@ -51,7 +51,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 
     <nav>
-        <a href="home.php" class="button">← Back to Home</a>
+      
+    
         <a href="index.html" class="button">Log Out</a>
     </nav>
 
