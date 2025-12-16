@@ -68,20 +68,7 @@
       <p>&copy; 2025 Sofitra Books. All rights reserved.</p>
     </div>
   </footer>
-  <script>
 
-    addToCartBtn.onclick = function () {
-      if (selectedBook) {
-        let cart = JSON.parse(localStorage.getItem('cart')) || [];
-        cart.push(selectedBook);
-        localStorage.setItem('cart', JSON.stringify(cart));
-        closeModal();
-        alert('Book added to cart!');
-      }
-    };
-
-
-  </script>
 </body>
 
 </html>
