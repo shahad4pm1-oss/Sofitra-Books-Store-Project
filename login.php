@@ -42,19 +42,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Login - Sofitra Books</title>
     <link rel="stylesheet" href="styles.css">
     <script>
-        // Optional: Keep the welcome alert if desired, or remove it.
+
     </script>
 </head>
 
 <body>
 
-    <nav>
-        <a href="home.php" class="button">← Back to Home</a>
-    </nav>
+
 
     <header>
         <h1>Sofitra Books store</h1>
-        <!-- Ensure path to image is correct. If login.php is in same dir as index.html, it should work -->
+
         <img src="photo/so.png" alt="Sofitra Books Logo" width="500" height="200">
         <p>Welcome to our online bookstore!</p>
     </header>
@@ -67,13 +65,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <form action="login.php" method="POST">
             <div class="form-group">
-                 <label for="email">Email:</label>
-                 <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
             </div>
 
             <div class="form-group">
-                 <label for="password">Password:</label>
-                 <input type="password" id="password" name="password" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
             </div>
 
             <button type="submit" style="width: 100%;">Login</button>
